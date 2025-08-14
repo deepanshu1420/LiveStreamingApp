@@ -13,6 +13,8 @@
 ## 🌟 Overview
 This project is a live streaming web app where users can join or host live streams in real-time. It allows sharing of stream links, room-based streaming, and uses ZegoCloud UI Kit for seamless video streaming functionality.  
 
+**Live Demo:** [Click here to visit the app](http://livestreamingapp-online.netlify.app)
+
 ---
 
 ## ⚡ Features
