@@ -1,12 +1,56 @@
-# React + Vite
+# 🎥 Live Streaming App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-v18.2.0-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-v4.4.9-lightgrey)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v3.3.3-green)](https://tailwindcss.com/)
+[![ZegoCloud](https://img.shields.io/badge/ZegoCloud-LiveStreaming-red)](https://www.zegocloud.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Currently, two official plugins are available:
+**A web application for live streaming using React, Vite, Tailwind CSS, and ZegoCloud UI Kit.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Overview
+This project is a live streaming web app where users can join or host live streams in real-time. It allows sharing of stream links, room-based streaming, and uses ZegoCloud UI Kit for seamless video streaming functionality.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚡ Features
+- **Live Streaming:** Participate in real-time video streams with minimal latency.  
+- **Join Rooms:** Enter a "Room ID" and "User ID" to join specific live streams.  
+- **Copy Link:** Share the live stream easily with others through a copyable link.  
+- **ZegoCloud Integration:** Handles streaming, authentication, and live interactions using ZegoCloud UI Kit.  
+- **Responsive UI:** Built with Tailwind CSS for a modern and responsive interface.  
+
+---
+
+## 🛠 Technical Details
+- **Framework:** React (V18) with Vite as the development environment.  
+- **Styling:** Tailwind CSS for utility-first responsive design.  
+- **Live Streaming:** @zegocloud/zego-uikit-prebuilt library for video streaming functionality.  
+- **Authentication:** App connects to ZegoCloud with App ID and Server Secret for secure streaming sessions.  
+
+---
+
+## ✅ Advantages
+- Easy to join or host live streaming rooms.  
+- Real-time streaming with reliable ZegoCloud service.  
+- Shareable links make it simple to invite others.  
+- Scalable architecture using React and Vite for a smooth developer experience.  
+
+---
+
+## 🛠 Installation
+
+```bash
+# Clone the repository
+git clone <your-repo-link>
+
+# Navigate to the project folder
+cd LiveStreamingApp
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
